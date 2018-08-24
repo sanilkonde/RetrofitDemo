@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.sanil.retrofitexample.MainActivity"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/getButton"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:background="#000000"
+        android:text="GET"
+        android:textColor="#ffffff"
+        android:layout_marginRight="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/postButton"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:background="#000000"
+        android:text="POST"
+        android:layout_marginLeft="10dp"
+        android:textColor="#ffffff"
+        android:gravity="center"/>
+
+</LinearLayout>
